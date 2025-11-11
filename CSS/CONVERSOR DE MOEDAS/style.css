@@ -92,7 +92,7 @@ button {
 }
 
 button:hover {
-   opacity: 0.8;
+    opacity: 0.8;
 }
 
 button:active {
@@ -100,7 +100,7 @@ button:active {
 
 }
 
-section{
+section {
     border: 1px solid #772fd3;
     padding: 12px;
     width: 327px;
@@ -114,12 +114,33 @@ section{
     margin-left: 15px;
 }
 
-.seta{
-margin: 15px 0;
+.seta {
+    margin: 15px 0;
 }
-.caixa1{
+
+.caixa1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4px;
+}
+
+.caixa2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.moeda {
+    color: rgba(119, 119, 119, 1);
+    font-size: 14px;
+}
+
+.valor-moeda {
+    color: rgba(85, 85, 85, 1);
+    font-weight: 700;
+    font-size: 20px;
+
+
 }
