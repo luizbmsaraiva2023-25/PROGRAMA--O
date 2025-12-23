@@ -1,12 +1,14 @@
-const variavel = "Abacatinho";
+function generateNumber() {
 
-console.log(variavel);
+const min = Math.ceil(document.querySelector(".input-min").value)
+const max = Math.floor(document.querySelector(".input-max").value)
 
-function nomeNaTela() {
-    console.log("Barbington");
-} 
+const result = Math.floor(Math.random() * (max - min + 1)) + min;
 
-nomeNaTela()
-nomeNaTela()
-nomeNaTela()
-nomeNaTela()
+alert(result)
+
+
+
+
+
+}
